@@ -3,17 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		942E7AE4239E7F9F00DFA8A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E7AE3239E7F9F00DFA8A3 /* AppDelegate.swift */; };
-		942E7AE6239E7F9F00DFA8A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E7AE5239E7F9F00DFA8A3 /* SceneDelegate.swift */; };
-		942E7AE8239E7F9F00DFA8A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E7AE7239E7F9F00DFA8A3 /* ViewController.swift */; };
 		942E7AEB239E7F9F00DFA8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942E7AE9239E7F9F00DFA8A3 /* Main.storyboard */; };
 		942E7AED239E7FA100DFA8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942E7AEC239E7FA100DFA8A3 /* Assets.xcassets */; };
 		942E7AF0239E7FA100DFA8A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942E7AEE239E7FA100DFA8A3 /* LaunchScreen.storyboard */; };
 		942E7AFB239E7FA100DFA8A3 /* ChaldeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E7AFA239E7FA100DFA8A3 /* ChaldeaTests.swift */; };
+		946C907C239FA80200F1BDF7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 946C907B239FA80200F1BDF7 /* Alamofire */; };
+		94A8238623A1D42600D7C841 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 94A8238523A1D42600D7C841 /* RxSwift */; };
+		94A8238823A1D42600D7C841 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = 94A8238723A1D42600D7C841 /* RxTest */; };
+		94A8238A23A1D42600D7C841 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 94A8238923A1D42600D7C841 /* RxRelay */; };
+		94A8238C23A1D42600D7C841 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 94A8238B23A1D42600D7C841 /* RxCocoa */; };
+		94A8238E23A1D42600D7C841 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 94A8238D23A1D42600D7C841 /* RxBlocking */; };
+		94A8239123A1D52D00D7C841 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 94A8239023A1D52D00D7C841 /* Kingfisher */; };
+		94A8239423A1D65300D7C841 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A8239323A1D65300D7C841 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +35,6 @@
 /* Begin PBXFileReference section */
 		942E7AE0239E7F9F00DFA8A3 /* Chaldea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaldea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		942E7AE3239E7F9F00DFA8A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		942E7AE5239E7F9F00DFA8A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		942E7AE7239E7F9F00DFA8A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		942E7AEA239E7F9F00DFA8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		942E7AEC239E7FA100DFA8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		942E7AEF239E7FA100DFA8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		942E7AF6239E7FA100DFA8A3 /* ChaldeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaldeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		942E7AFA239E7FA100DFA8A3 /* ChaldeaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaldeaTests.swift; sourceTree = "<group>"; };
 		942E7AFC239E7FA100DFA8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A8239323A1D65300D7C841 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A8238A23A1D42600D7C841 /* RxRelay in Frameworks */,
+				94A8238623A1D42600D7C841 /* RxSwift in Frameworks */,
+				94A8238C23A1D42600D7C841 /* RxCocoa in Frameworks */,
+				946C907C239FA80200F1BDF7 /* Alamofire in Frameworks */,
+				94A8239123A1D52D00D7C841 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A8238823A1D42600D7C841 /* RxTest in Frameworks */,
+				94A8238E23A1D42600D7C841 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +91,10 @@
 		942E7AE2239E7F9F00DFA8A3 /* Chaldea */ = {
 			isa = PBXGroup;
 			children = (
-				942E7AE3239E7F9F00DFA8A3 /* AppDelegate.swift */,
-				942E7AE5239E7F9F00DFA8A3 /* SceneDelegate.swift */,
-				942E7AE7239E7F9F00DFA8A3 /* ViewController.swift */,
+				94A8239223A1D62700D7C841 /* Application */,
 				942E7AE9239E7F9F00DFA8A3 /* Main.storyboard */,
-				942E7AEC239E7FA100DFA8A3 /* Assets.xcassets */,
 				942E7AEE239E7FA100DFA8A3 /* LaunchScreen.storyboard */,
+				942E7AEC239E7FA100DFA8A3 /* Assets.xcassets */,
 				942E7AF1239E7FA100DFA8A3 /* Info.plist */,
 			);
 			path = Chaldea;
@@ -97,6 +107,15 @@
 				942E7AFC239E7FA100DFA8A3 /* Info.plist */,
 			);
 			path = ChaldeaTests;
+			sourceTree = "<group>";
+		};
+		94A8239223A1D62700D7C841 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				942E7AE3239E7F9F00DFA8A3 /* AppDelegate.swift */,
+				94A8239323A1D65300D7C841 /* main.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +134,13 @@
 			dependencies = (
 			);
 			name = Chaldea;
+			packageProductDependencies = (
+				946C907B239FA80200F1BDF7 /* Alamofire */,
+				94A8238523A1D42600D7C841 /* RxSwift */,
+				94A8238923A1D42600D7C841 /* RxRelay */,
+				94A8238B23A1D42600D7C841 /* RxCocoa */,
+				94A8239023A1D52D00D7C841 /* Kingfisher */,
+			);
 			productName = Chaldea;
 			productReference = 942E7AE0239E7F9F00DFA8A3 /* Chaldea.app */;
 			productType = "com.apple.product-type.application";
@@ -133,6 +159,10 @@
 				942E7AF8239E7FA100DFA8A3 /* PBXTargetDependency */,
 			);
 			name = ChaldeaTests;
+			packageProductDependencies = (
+				94A8238723A1D42600D7C841 /* RxTest */,
+				94A8238D23A1D42600D7C841 /* RxBlocking */,
+			);
 			productName = ChaldeaTests;
 			productReference = 942E7AF6239E7FA100DFA8A3 /* ChaldeaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -165,6 +195,11 @@
 				Base,
 			);
 			mainGroup = 942E7AD7239E7F9F00DFA8A3;
+			packageReferences = (
+				946C907A239FA80200F1BDF7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				94A8238423A1D42600D7C841 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				94A8238F23A1D52D00D7C841 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 942E7AE1239E7F9F00DFA8A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -200,9 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				942E7AE8239E7F9F00DFA8A3 /* ViewController.swift in Sources */,
 				942E7AE4239E7F9F00DFA8A3 /* AppDelegate.swift in Sources */,
-				942E7AE6239E7F9F00DFA8A3 /* SceneDelegate.swift in Sources */,
+				94A8239423A1D65300D7C841 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -294,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -308,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -348,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -365,6 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z734C7U23P;
 				INFOPLIST_FILE = Chaldea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,7 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.byunfi.Chaldea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -383,6 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z734C7U23P;
 				INFOPLIST_FILE = Chaldea/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +428,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.byunfi.Chaldea;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -469,6 +507,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		946C907A239FA80200F1BDF7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "5.0.0-rc.3";
+			};
+		};
+		94A8238423A1D42600D7C841 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		94A8238F23A1D52D00D7C841 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		946C907B239FA80200F1BDF7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 946C907A239FA80200F1BDF7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		94A8238523A1D42600D7C841 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94A8238423A1D42600D7C841 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		94A8238723A1D42600D7C841 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94A8238423A1D42600D7C841 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		94A8238923A1D42600D7C841 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94A8238423A1D42600D7C841 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		94A8238B23A1D42600D7C841 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94A8238423A1D42600D7C841 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		94A8238D23A1D42600D7C841 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94A8238423A1D42600D7C841 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		94A8239023A1D52D00D7C841 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94A8238F23A1D52D00D7C841 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 942E7AD8239E7F9F00DFA8A3 /* Project object */;
 }
